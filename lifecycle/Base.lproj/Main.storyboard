@@ -305,6 +305,9 @@
                         <outlet property="button" destination="lWU-ua-oMZ" id="m5c-zp-3d5"/>
                         <outlet property="emailTextField" destination="Jxl-df-2yn" id="yc0-71-pze"/>
                         <outlet property="image" destination="yQH-LF-MB4" id="FyR-7w-GfQ"/>
+                        <outlet property="mobileNumberTextField" destination="8AM-dl-bXa" id="ZT6-gk-KDR"/>
+                        <outlet property="passwordTextField" destination="n8B-Lx-Ov1" id="CaR-u7-cZf"/>
+                        <outlet property="userNameTextField" destination="Ke2-Al-pgW" id="QGp-Ca-wki"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ViT-sO-af1" sceneMemberID="firstResponder"/>
