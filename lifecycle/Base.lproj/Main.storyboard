@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P5C-O1-mMX">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="tdG-cx-DFU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="tdG-cx-DFU" customClass="MyImage" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o52-SD-oOc">
@@ -31,7 +32,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-oE-fXu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-oE-fXu" customClass="MyButton" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="40" y="489" width="295" height="48"/>
                                 <color key="backgroundColor" red="0.35294118520000001" green="0.7019608021" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -152,9 +153,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="WNx-1u-5yZ"/>
                     <connections>
-                        <outlet property="button" destination="NUY-oE-fXu" id="by9-rr-lgm"/>
                         <outlet property="emailTextField" destination="hc6-PO-LJU" id="we1-CA-r1M"/>
-                        <outlet property="image" destination="tdG-cx-DFU" id="fwu-CT-peD"/>
                         <outlet property="label" destination="wWm-tU-tTc" id="wej-Oj-c1F"/>
                         <outlet property="passwordTextField" destination="187-b9-wFn" id="8OS-t2-dZP"/>
                     </connections>
@@ -187,7 +186,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="yQH-LF-MB4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="yQH-LF-MB4" customClass="MyImage" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TvK-hw-30A">
@@ -246,7 +245,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWU-ua-oMZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWU-ua-oMZ" customClass="MyButton" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="40" y="543" width="295" height="48"/>
                                 <color key="backgroundColor" red="0.35294118520000001" green="0.7019608021" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -302,9 +301,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="6H0-2h-NKu"/>
                     <connections>
-                        <outlet property="button" destination="lWU-ua-oMZ" id="m5c-zp-3d5"/>
                         <outlet property="emailTextField" destination="Jxl-df-2yn" id="yc0-71-pze"/>
-                        <outlet property="image" destination="yQH-LF-MB4" id="FyR-7w-GfQ"/>
                         <outlet property="mobileNumberTextField" destination="8AM-dl-bXa" id="ZT6-gk-KDR"/>
                         <outlet property="passwordTextField" destination="n8B-Lx-Ov1" id="CaR-u7-cZf"/>
                         <outlet property="userNameTextField" destination="Ke2-Al-pgW" id="QGp-Ca-wki"/>
@@ -322,7 +319,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="ypi-0C-Jxk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 98" translatesAutoresizingMaskIntoConstraints="NO" id="ypi-0C-Jxk" customClass="MyImage" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOa-nH-wdu">
@@ -337,7 +334,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzs-h2-q3b">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzs-h2-q3b" customClass="MyButton" customModule="lifecycle" customModuleProvider="target">
                                 <rect key="frame" x="40" y="410" width="295" height="48"/>
                                 <color key="backgroundColor" red="0.35294118520000001" green="0.7019608021" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -394,9 +391,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="HZB-6o-DT4"/>
                     <connections>
-                        <outlet property="button" destination="Pzs-h2-q3b" id="ois-t1-EMK"/>
                         <outlet property="emaiilTextField" destination="2qM-1K-WBF" id="um8-xh-qZs"/>
-                        <outlet property="image" destination="ypi-0C-Jxk" id="2h2-tR-Rin"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HrG-Lb-W8J" sceneMemberID="firstResponder"/>

@@ -20,10 +20,6 @@ class ForgotPasswordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
-        button.layer.cornerRadius = button.frame.height / 2
-        image.contentMode = .scaleAspectFill
-        image.clipsToBounds = true
         
         emaiilTextField.text = email
     

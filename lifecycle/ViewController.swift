@@ -15,8 +15,8 @@ import Alamofire
 class ViewController: UIViewController {
 
    
-    @IBOutlet weak var button: UIButton!
-    @IBOutlet weak var image: UIImageView!
+
+
 
     @IBOutlet weak var emailTextField: UITextField!
     
@@ -25,12 +25,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        image.contentMode = .scaleAspectFill
-        image.clipsToBounds = true
+    
         
-        button.layer.cornerRadius = button.frame.height / 2
         label.isUserInteractionEnabled = true
         label.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(labelTapped)))
+        
+    keyBoradSetup()
     }
    
     
@@ -42,12 +42,9 @@ class ViewController: UIViewController {
     
     @IBAction func loginAction(_ sender: Any) {
         if emailTextField.text?.isEmpty ?? true || passwordTextField.text?.isEmpty ?? true {
-                   emailTextField.layer.borderWidth = 1
-                   emailTextField.layer.borderColor = UIColor.red.cgColor
-                   emailTextField.placeholder = "заполните поле"
-                   passwordTextField.layer.borderWidth = 1
-                   passwordTextField.layer.borderColor = UIColor.red.cgColor
-                   passwordTextField.placeholder = "заполните поле"
+
+            textField(emailTextField)
+            textField(passwordTextField)
                }
         if emailTextField.text!.count > 0 || passwordTextField.text!.count > 0{
                    emailTextField.layer.borderColor = UIColor.white.cgColor
@@ -55,6 +52,23 @@ class ViewController: UIViewController {
                            }
       
                 }
+    
+    
+    func textField (_ text:UITextField)  {
+        text.layer.borderWidth = 1
+      text.layer.borderColor = UIColor.red.cgColor
+       text.placeholder = "заполните поле"
+    }
+    
+    
+    func keyBoradSetup(){
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+                 view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc private func hideKeyboard() {
+              view.endEditing(true)
+          }
     
 }
 
