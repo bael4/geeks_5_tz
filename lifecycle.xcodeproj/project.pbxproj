@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A1115A6295E684335EB53CE1 /* Pods_lifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */; };
+		BE37059829C7293900EB8B0B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37059729C7293900EB8B0B /* PasswordTextField.swift */; };
+		BE37059A29C7786600EB8B0B /* NewCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37059929C7786600EB8B0B /* NewCreateViewController.swift */; };
+		BE37059C29C77D7400EB8B0B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37059B29C77D7400EB8B0B /* ForgotPasswordViewController.swift */; };
 		BEB633CD29C706D5001D3D68 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEB633CC29C706D5001D3D68 /* SnapKit */; };
-		BEC695F229C5F96C003F0748 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC695F029C5F96C003F0748 /* SecondViewController.swift */; };
-		BEC695F329C5F96C003F0748 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC695F129C5F96C003F0748 /* SecondViewController.xib */; };
 		BEF3FCB529C4AC4700675E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */; };
 		BEF3FCB729C4AC4700675E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */; };
 		BEF3FCB929C4AC4700675E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB829C4AC4700675E23 /* ViewController.swift */; };
@@ -23,8 +24,9 @@
 		0191E10D8F66549EAE86ABF4 /* Pods-lifecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.debug.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		54E7EE8E058C5DFA9EBAAF2C /* Pods-lifecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.release.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.release.xcconfig"; sourceTree = "<group>"; };
 		A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC695F029C5F96C003F0748 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		BEC695F129C5F96C003F0748 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		BE37059729C7293900EB8B0B /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		BE37059929C7786600EB8B0B /* NewCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCreateViewController.swift; sourceTree = "<group>"; };
+		BE37059B29C77D7400EB8B0B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		BEF3FCB129C4AC4700675E23 /* lifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,10 +90,11 @@
 			children = (
 				BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */,
 				BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */,
+				BE37059729C7293900EB8B0B /* PasswordTextField.swift */,
 				BEF3FCB829C4AC4700675E23 /* ViewController.swift */,
-				BEC695F029C5F96C003F0748 /* SecondViewController.swift */,
-				BEC695F129C5F96C003F0748 /* SecondViewController.xib */,
+				BE37059B29C77D7400EB8B0B /* ForgotPasswordViewController.swift */,
 				BEF3FCBA29C4AC4700675E23 /* Main.storyboard */,
+				BE37059929C7786600EB8B0B /* NewCreateViewController.swift */,
 				BEF3FCBD29C4AC4800675E23 /* Assets.xcassets */,
 				BEF3FCBF29C4AC4800675E23 /* LaunchScreen.storyboard */,
 				BEF3FCC229C4AC4800675E23 /* Info.plist */,
@@ -165,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC695F329C5F96C003F0748 /* SecondViewController.xib in Resources */,
 				BEF3FCC129C4AC4800675E23 /* LaunchScreen.storyboard in Resources */,
 				BEF3FCBE29C4AC4800675E23 /* Assets.xcassets in Resources */,
 				BEF3FCBC29C4AC4700675E23 /* Main.storyboard in Resources */,
@@ -221,9 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC695F229C5F96C003F0748 /* SecondViewController.swift in Sources */,
 				BEF3FCB929C4AC4700675E23 /* ViewController.swift in Sources */,
 				BEF3FCB529C4AC4700675E23 /* AppDelegate.swift in Sources */,
+				BE37059C29C77D7400EB8B0B /* ForgotPasswordViewController.swift in Sources */,
+				BE37059A29C7786600EB8B0B /* NewCreateViewController.swift in Sources */,
+				BE37059829C7293900EB8B0B /* PasswordTextField.swift in Sources */,
 				BEF3FCB729C4AC4700675E23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
