@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A1115A6295E684335EB53CE1 /* Pods_lifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */; };
+		BE0A73BB29CF52A100AF7100 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A73BA29CF52A100AF7100 /* ForgotPasswordViewController.swift */; };
+		BE57E47029CF084D0024C8DA /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57E46F29CF084D0024C8DA /* PasswordTextField.swift */; };
 		BEB633CD29C706D5001D3D68 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEB633CC29C706D5001D3D68 /* SnapKit */; };
-		BEC695F229C5F96C003F0748 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC695F029C5F96C003F0748 /* SecondViewController.swift */; };
-		BEC695F329C5F96C003F0748 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC695F129C5F96C003F0748 /* SecondViewController.xib */; };
+		BEC695F229C5F96C003F0748 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC695F029C5F96C003F0748 /* PasswordViewController.swift */; };
 		BEF3FCB529C4AC4700675E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */; };
 		BEF3FCB729C4AC4700675E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */; };
-		BEF3FCB929C4AC4700675E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB829C4AC4700675E23 /* ViewController.swift */; };
-		BEF3FCBC29C4AC4700675E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF3FCBA29C4AC4700675E23 /* Main.storyboard */; };
+		BEF3FCB929C4AC4700675E23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB829C4AC4700675E23 /* LoginViewController.swift */; };
 		BEF3FCBE29C4AC4800675E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF3FCBD29C4AC4800675E23 /* Assets.xcassets */; };
 		BEF3FCC129C4AC4800675E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF3FCBF29C4AC4800675E23 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -23,13 +23,13 @@
 		0191E10D8F66549EAE86ABF4 /* Pods-lifecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.debug.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		54E7EE8E058C5DFA9EBAAF2C /* Pods-lifecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.release.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.release.xcconfig"; sourceTree = "<group>"; };
 		A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC695F029C5F96C003F0748 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		BEC695F129C5F96C003F0748 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		BE0A73BA29CF52A100AF7100 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		BE57E46F29CF084D0024C8DA /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		BEC695F029C5F96C003F0748 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		BEF3FCB129C4AC4700675E23 /* lifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEF3FCB829C4AC4700675E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEF3FCBB29C4AC4700675E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF3FCB829C4AC4700675E23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BEF3FCBD29C4AC4800675E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF3FCC029C4AC4800675E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEF3FCC229C4AC4800675E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,10 +88,10 @@
 			children = (
 				BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */,
 				BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */,
-				BEF3FCB829C4AC4700675E23 /* ViewController.swift */,
-				BEC695F029C5F96C003F0748 /* SecondViewController.swift */,
-				BEC695F129C5F96C003F0748 /* SecondViewController.xib */,
-				BEF3FCBA29C4AC4700675E23 /* Main.storyboard */,
+				BEF3FCB829C4AC4700675E23 /* LoginViewController.swift */,
+				BE57E46F29CF084D0024C8DA /* PasswordTextField.swift */,
+				BEC695F029C5F96C003F0748 /* PasswordViewController.swift */,
+				BE0A73BA29CF52A100AF7100 /* ForgotPasswordViewController.swift */,
 				BEF3FCBD29C4AC4800675E23 /* Assets.xcassets */,
 				BEF3FCBF29C4AC4800675E23 /* LaunchScreen.storyboard */,
 				BEF3FCC229C4AC4800675E23 /* Info.plist */,
@@ -165,10 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC695F329C5F96C003F0748 /* SecondViewController.xib in Resources */,
 				BEF3FCC129C4AC4800675E23 /* LaunchScreen.storyboard in Resources */,
 				BEF3FCBE29C4AC4800675E23 /* Assets.xcassets in Resources */,
-				BEF3FCBC29C4AC4700675E23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC695F229C5F96C003F0748 /* SecondViewController.swift in Sources */,
-				BEF3FCB929C4AC4700675E23 /* ViewController.swift in Sources */,
+				BE57E47029CF084D0024C8DA /* PasswordTextField.swift in Sources */,
+				BEC695F229C5F96C003F0748 /* PasswordViewController.swift in Sources */,
+				BE0A73BB29CF52A100AF7100 /* ForgotPasswordViewController.swift in Sources */,
+				BEF3FCB929C4AC4700675E23 /* LoginViewController.swift in Sources */,
 				BEF3FCB529C4AC4700675E23 /* AppDelegate.swift in Sources */,
 				BEF3FCB729C4AC4700675E23 /* SceneDelegate.swift in Sources */,
 			);
@@ -231,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEF3FCBA29C4AC4700675E23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEF3FCBB29C4AC4700675E23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEF3FCBF29C4AC4800675E23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -354,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -377,7 +369,6 @@
 				INFOPLIST_FILE = lifecycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,7 +397,6 @@
 				INFOPLIST_FILE = lifecycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
