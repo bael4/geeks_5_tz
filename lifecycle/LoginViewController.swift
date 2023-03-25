@@ -292,6 +292,7 @@ class LoginViewController: UIViewController {
     
    private func initAction(){
        button.addTarget(self, action: #selector(login(_ :)), for: .touchUpInside)
+       keyBoradSetup()
     }
     
     @objc func login(_ sender: UIButton){
@@ -312,6 +313,14 @@ class LoginViewController: UIViewController {
            text.placeholder = "заполните поле"
         }
     
+     func keyBoradSetup(){
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+                 view.addGestureRecognizer(tapGesture)
+    }
+    
+     @objc private func hideKeyboard() {
+              view.endEditing(true)
+          }
    
 
 }
