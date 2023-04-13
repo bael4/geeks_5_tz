@@ -280,6 +280,9 @@ class LoginViewController: UIViewController {
     private func addGesture(){
         createNow.isUserInteractionEnabled = true
               createNow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(createNowTapped)))
+        
+        FPLabel.isUserInteractionEnabled = true
+        FPLabel.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(forgotPasswordTapped)))
     }
     
     @objc func createNowTapped() {
@@ -288,6 +291,11 @@ class LoginViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
         
        }
+    
+    @objc func forgotPasswordTapped () {
+        let vc = ForgotPasswordViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     
    private func initAction(){

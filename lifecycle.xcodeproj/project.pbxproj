@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1115A6295E684335EB53CE1 /* Pods_lifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */; };
+		088D51259646D1BAD2934B7E /* Pods_lifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA7A91E52E3DCF24F4BD08A /* Pods_lifecycle.framework */; };
 		BE0A73BB29CF52A100AF7100 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A73BA29CF52A100AF7100 /* ForgotPasswordViewController.swift */; };
 		BE57E47029CF084D0024C8DA /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57E46F29CF084D0024C8DA /* PasswordTextField.swift */; };
-		BEB633CD29C706D5001D3D68 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEB633CC29C706D5001D3D68 /* SnapKit */; };
 		BEC695F229C5F96C003F0748 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC695F029C5F96C003F0748 /* PasswordViewController.swift */; };
 		BEF3FCB529C4AC4700675E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */; };
 		BEF3FCB729C4AC4700675E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */; };
@@ -20,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0191E10D8F66549EAE86ABF4 /* Pods-lifecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.debug.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.debug.xcconfig"; sourceTree = "<group>"; };
-		54E7EE8E058C5DFA9EBAAF2C /* Pods-lifecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.release.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.release.xcconfig"; sourceTree = "<group>"; };
-		A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7A91E52E3DCF24F4BD08A /* Pods_lifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC722EC5172F95E2151242B /* Pods-lifecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.release.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.release.xcconfig"; sourceTree = "<group>"; };
+		6162DAB894B209CF359BD07C /* Pods-lifecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifecycle.debug.xcconfig"; path = "Target Support Files/Pods-lifecycle/Pods-lifecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		BE0A73BA29CF52A100AF7100 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		BE57E46F29CF084D0024C8DA /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		BEC695F029C5F96C003F0748 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
-		BEF3FCB129C4AC4700675E23 /* lifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF369C729E828AC00166F1D /* lifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = lifecycle.app; path = "/Users/baelryspekov/Desktop/swift/geeks_5_tz/build/Debug-iphoneos/lifecycle.app"; sourceTree = "<absolute>"; };
 		BEF3FCB429C4AC4700675E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF3FCB629C4AC4700675E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEF3FCB829C4AC4700675E23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -40,47 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1115A6295E684335EB53CE1 /* Pods_lifecycle.framework in Frameworks */,
-				BEB633CD29C706D5001D3D68 /* SnapKit in Frameworks */,
+				088D51259646D1BAD2934B7E /* Pods_lifecycle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		898686C364C3AC5F98D6CEB2 /* Pods */ = {
+		B6C3C55A8544431C575F43EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0191E10D8F66549EAE86ABF4 /* Pods-lifecycle.debug.xcconfig */,
-				54E7EE8E058C5DFA9EBAAF2C /* Pods-lifecycle.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		BB4EAE81D19C73AB50D492D0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A40CC7CB08F9312CB7DD9DCC /* Pods_lifecycle.framework */,
+				4AA7A91E52E3DCF24F4BD08A /* Pods_lifecycle.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D9B8371029F2C7B3DD0C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6162DAB894B209CF359BD07C /* Pods-lifecycle.debug.xcconfig */,
+				5AC722EC5172F95E2151242B /* Pods-lifecycle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BEF3FCA829C4AC4700675E23 = {
 			isa = PBXGroup;
 			children = (
 				BEF3FCB329C4AC4700675E23 /* lifecycle */,
-				BEF3FCB229C4AC4700675E23 /* Products */,
-				898686C364C3AC5F98D6CEB2 /* Pods */,
-				BB4EAE81D19C73AB50D492D0 /* Frameworks */,
+				B7D9B8371029F2C7B3DD0C0A /* Pods */,
+				B6C3C55A8544431C575F43EC /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		BEF3FCB229C4AC4700675E23 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BEF3FCB129C4AC4700675E23 /* lifecycle.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BEF3FCB329C4AC4700675E23 /* lifecycle */ = {
@@ -117,11 +107,8 @@
 			dependencies = (
 			);
 			name = lifecycle;
-			packageProductDependencies = (
-				BEB633CC29C706D5001D3D68 /* SnapKit */,
-			);
 			productName = lifecycle;
-			productReference = BEF3FCB129C4AC4700675E23 /* lifecycle.app */;
+			productReference = BEF369C729E828AC00166F1D /* lifecycle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,10 +135,7 @@
 				Base,
 			);
 			mainGroup = BEF3FCA829C4AC4700675E23;
-			packageReferences = (
-				BEB633CB29C706D5001D3D68 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
-			productRefGroup = BEF3FCB229C4AC4700675E23 /* Products */;
+			productRefGroup = BEF3FCA829C4AC4700675E23;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -358,7 +342,7 @@
 		};
 		BEF3FCC629C4AC4800675E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0191E10D8F66549EAE86ABF4 /* Pods-lifecycle.debug.xcconfig */;
+			baseConfigurationReference = 6162DAB894B209CF359BD07C /* Pods-lifecycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,7 +370,7 @@
 		};
 		BEF3FCC729C4AC4800675E23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E7EE8E058C5DFA9EBAAF2C /* Pods-lifecycle.release.xcconfig */;
+			baseConfigurationReference = 5AC722EC5172F95E2151242B /* Pods-lifecycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,25 +418,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		BEB633CB29C706D5001D3D68 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		BEB633CC29C706D5001D3D68 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BEB633CB29C706D5001D3D68 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEF3FCA929C4AC4700675E23 /* Project object */;
 }
